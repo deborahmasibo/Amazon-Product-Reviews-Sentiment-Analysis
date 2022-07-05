@@ -88,8 +88,11 @@ over reporting of sales could have lead to incorrect restocking of goods, leadin
 
 
 <!-- Objectives-->
-### Main Objective
-### Specific Objectives
+### Objectives
+
+#### Main Objective
+
+#### Specific Objectives
 
 <!-- SUCCESS CRITERIA-->
 ### Success Criteria
