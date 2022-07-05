@@ -14,6 +14,7 @@ The project described below was done with an aim of understanding customer senti
       <a href="#project-description">Project Description</a>
       <ul>
         <li><a href="#experimental-design">Experimental Design</a></li>
+        <li><a href="#objectives">Objectives</a></li>
         <li><a href="#sucess-criteria">Success Criteria</a></li>
         <li><a href="#dataset">Dataset</a></li>
         <li><a href="#rpubs-publication">RPubs Publication</a></li>
@@ -84,6 +85,11 @@ over reporting of sales could have lead to incorrect restocking of goods, leadin
 11. Challenging the solution
 12. Conclusion
 13. Follow up questions
+
+
+<!-- Objectives-->
+### Main Objective
+### Specific Objectives
 
 <!-- SUCCESS CRITERIA-->
 ### Success Criteria
