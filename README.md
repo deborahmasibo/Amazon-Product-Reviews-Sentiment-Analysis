@@ -3,7 +3,8 @@
 
 ## Introduction
 
-The project described below was done with an aim of understanding customer sentiments about products, and their opinion of purchased products.
+In trying to understand online customer behaviour and sentiments we were tasked with analysing the data from e-retail juggernaut Amazon. The company wants to be at the forefront in the beauty and personal care retail industry  which has been rapidly growing over the years with its market value expected to reach 558 Billion USD by 2026 according to the research done by The Business Wire. The company’s marketing department has thus sought to contract our services as data scientists to provide insights that will enable them capitalize on acquiring a vast portion of this forecasted market value. We will be advising the various brands that get good/neutral/bad reviews on how to improve their product specs. For this project we will conduct sentiment analysis which will help us decipher the customer reviews so as to understand the customers’ purchasing behaviors. This will help in knowing what products are in high demand and what specifications are preferred or not preferred in order to advise their respective brands. It will also provide insight on how we can better the customer service within the business.
+
 
 
 <!-- TABLE OF CONTENTS -->
