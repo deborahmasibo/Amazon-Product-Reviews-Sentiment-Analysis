@@ -101,9 +101,9 @@ Our study will be considered successful if we are able to meet the objectives.
 <!-- DATASET -->
 ### Dataset
 
-[Amazon Fashion Product Reviews](https://nijianmo.github.io/amazon/index.html)
-[Amazon Fashion Product Metadata](https://nijianmo.github.io/amazon/index.html)
-[Amazon Fashion Product Ratings](https://nijianmo.github.io/amazon/index.html)
+1. [Amazon Fashion Product Reviews](https://nijianmo.github.io/amazon/index.html)
+2. [Amazon Fashion Product Metadata](https://nijianmo.github.io/amazon/index.html)
+3. [Amazon Fashion Product Ratings](https://nijianmo.github.io/amazon/index.html)
 
 
 
@@ -155,11 +155,11 @@ Steps to be takes to run the project:
 
 1. The project has been written entirely in python, for beginners, refer to the following docummentation for a better understanding of the code:
 
-> i) [Python](https://www.python.org)
-> ii) [Pandas](https://pandas.pydata.org/)
-> iii) [Scikit-learn](https://scikit-learn.org/)
-> iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)
-> v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)
+i) [Python](https://www.python.org)
+ii) [Pandas](https://pandas.pydata.org/)
+iii) [Scikit-learn](https://scikit-learn.org/)
+iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)
+v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)
 
 2. Details on the project context and analysis can be found in the colab notebook.
 
