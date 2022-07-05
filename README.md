@@ -41,8 +41,8 @@ The project described below was done with an aim of understanding customer senti
 
 <p align="center">
   <img 
-    width="614"
-    height="417"
+    width="514"
+    height="317"
     src="https://fontspool.com/img/fonts/img-1602929103184.png"
   >
 </p>
