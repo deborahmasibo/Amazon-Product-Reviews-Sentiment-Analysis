@@ -89,9 +89,14 @@ The BERT model was used to perform sentiment analysis on the product reviews.
 <!-- Objectives-->
 ### Objectives
 
-#### Main Objective
+#### Main Objective: 
+To recommend to Amazon the best products to stock in order to meet the customer's taste and needs.
 
-#### Specific Objectives
+#### Specific Objectives:
+To identify and analyze customer opinion on available products.
+To develop a system that seeks to forward customers feedback to the brand and predict customer sentiments.
+To categorize the products’ reviews
+
 
 <!-- SUCCESS CRITERIA-->
 ### Success Criteria
