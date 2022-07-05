@@ -155,11 +155,11 @@ Steps to be takes to run the project:
 
 1. The project has been written entirely in python, for beginners, refer to the following docummentation for a better understanding of the code:
 
-i) [Python](https://www.python.org)
-ii) [Pandas](https://pandas.pydata.org/)
-iii) [Scikit-learn](https://scikit-learn.org/)
-iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)
-v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)
+<p class="tab">i) [Python](https://www.python.org)</p>
+<p class="tab">ii) [Pandas](https://pandas.pydata.org/)</p>
+<p class="tab">iii) [Scikit-learn](https://scikit-learn.org/)</p>
+<p class="tab">iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)</p>
+<p class="tab">v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)</p>
 
 2. Details on the project context and analysis can be found in the colab notebook.
 
