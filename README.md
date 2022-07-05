@@ -94,7 +94,9 @@ To recommend to Amazon the best products to stock in order to meet the customer'
 
 #### Specific Objectives:
 To identify and analyze customer opinion on available products.
+
 To develop a system that seeks to forward customers feedback to the brand and predict customer sentiments.
+
 To categorize the products’ reviews
 
 
