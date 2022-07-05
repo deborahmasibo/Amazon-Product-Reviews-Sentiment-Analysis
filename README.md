@@ -17,7 +17,7 @@ The project described below was done with an aim of understanding customer senti
         <li><a href="#objectives">Objectives</a></li>
         <li><a href="#sucess-criteria">Success Criteria</a></li>
         <li><a href="#dataset">Dataset</a></li>
-        <li><a href="#rpubs-publication">RPubs Publication</a></li>
+        <li><a href="#ui-deployment">UI Deployment</a></li>
       </ul>
     </li>
     <li>
@@ -48,23 +48,21 @@ The project described below was done with an aim of understanding customer senti
 </p>
 
 
-Carrefour Kenya was undertaking a project that would inform the marketing department on the presence of fraudulent sales. They provided a data set from
-which the most important data set variables were to be identified. They aslo provided datasets to be used in the formation and analysis of association rules, 
-and for anomaly(fraud) detection.
+Amazon is a multinational e-commerce platform technology company based in America that specializes in e-commerce, cloud computing, digital streaming, and artificial intelligence. Amazon is a vast internet-based company which offers a variety of products such as beauty, apparel, clothing, software, mobile appliances, electronics, groceries luggage, entertainment such as books, music, movies, home use and improvement goods among many other goods. Products in the beauty and apparel niche are widely bought by customers online, as it is a main preference for customers to buy these specific products through the online method using Amazon.com services. The company, which sells numerous products online, is the world’s largest online retailer, web service provider and cloud computing service whose headquarters are found in Seattle, Washington. It is one of the information technology Big Five companies along with Microsoft, Meta, Apple and Alphabet.Amazon is one of the world’s most valuable, leading brands in digital innovation.
 
-### PCA and Feature Selection
+The goods Amazon sells are sold either directly over the Internet or as the middleman between other retailers and its millions of customers. One of the company’s best products is Amazon customer reviews; which span over a period from 1995 till current, giving an overview of the customers’ expressions and opinions of their different experiences using products purchased over the Amazon.com website. These reviews are a viable source of information for use in the data science and machine learning fields for data scientists.Reviews in the beauty and apparel industry are available which can be made of use to conduct a thorough analysis to provide critical problem-solving as well as extract useful insights and make recommendations to the company.
 
-Correct identification of the most important variables from the data set was important as this could reduce the amount of factors to be considered during 
-decision making and planning, to only the most relevant factors.
 
-### Association Rules
+### Aspect Based Sentiment Analysis (ABSA)
 
-The insights derived from analysis of association rules were important for planning stocking, advertisements, and promotions (to boost sales). Therefore, highly accurate information was required to prevent incurring losses as a result of remaing with a larger than expected closing stock, especially perishable goods.
+ABSA was used to extract customer opinion on a bought product.
 
-### Anomaly Detection
 
-Correct detection of anomalies was of importance as under reporting of sales is a crime, as less taxes will be filed. Plus, this activity, as well as 
-over reporting of sales could have lead to incorrect restocking of goods, leading to product shortages, or over stocking respectively. This could have lead to heavy losses being incurred, or a great sales opportunity being missed (limited supply of goods in demand).
+
+### BERT Sentiment Analysis
+
+The BERT model was used to perform sentiment analysis on the product reviews.
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -80,7 +78,7 @@ over reporting of sales could have lead to incorrect restocking of goods, leadin
 6. Univariate Analysis
 7. Bivariate Analysis
 8. Multivariate Analysis
-9. PCA, Feature Selection, Association Rules Analysis and Anomaly Detection.  
+9. Modelling (TextBlob, VADER, XGBoost and BERT)
 10. Implementing the solution
 11. Challenging the solution
 12. Conclusion
@@ -97,28 +95,23 @@ over reporting of sales could have lead to incorrect restocking of goods, leadin
 <!-- SUCCESS CRITERIA-->
 ### Success Criteria
 
-1. Correct identification of the most important variables from the provided sales data.
-2. Accurately deriving insights on the most popular items, items that had the highest relationship, and types of customers that were likely to return.
-3. Correct identification of anomalies within the provided data.
+Our study will be considered successful if we are able to meet the objectives.
 
 
 <!-- DATASET -->
 ### Dataset
 
-The datasets avialed by the client can be downloaded from these links:
-1. [Part 1 and 2](http://bit.ly/CarreFourDataset)
-2. [Part 3](http://bit.ly/SupermarketDatasetII)
-3. [Part 4](http://bit.ly/CarreFourSalesDataset)
+[Amazon Fashion Product Reviews](https://nijianmo.github.io/amazon/index.html)
+[Amazon Fashion Product Metadata](https://nijianmo.github.io/amazon/index.html)
+[Amazon Fashion Product Ratings](https://nijianmo.github.io/amazon/index.html)
 
 
 
-<!-- RPUBS PUBLICATION -->
-### RPubs Publication
+<!-- UI Deployment -->
 
-The final project was published in:
-1. [Part 1 and 2](http://rpubs.com/deborah_masibo/mba_pca_feature_selection)
-2. [Part 3](http://rpubs.com/deborah_masibo/mba_association_rules)
-3. [Part 4](http://rpubs.com/deborah_masibo/mba_anomaly_detection)
+### UI Deployment
+
+The final project user interface was deployed in [link].
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -131,11 +124,11 @@ The languages/IDEs used in the analysis project were:
 
 **Languages**
 
-[R](https://www.rdocumentation.org/)
+[Python](https://www.python.org)
 
-**IDE**
+**Web IDE**
 
-[RStudio](https://www.rstudio.com/)
+[Google Colaboratory](https://colab.research.google.com/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -146,17 +139,12 @@ The languages/IDEs used in the analysis project were:
 
 ## Getting Started
 
-Steps to be takes to run the project locally.
+Steps to be takes to run the project:
 
-### Installation
+1. Download the data from the specified link.
+2. Create a copy of the colab notebook.
+3. Run the code.
 
-1. Download and install R base.
-* [Windows](https://cran.r-project.org/bin/windows/base/)
-* [Mac](https://cran.r-project.org/bin/macosx/)
-* [Linux (Debian, Fedora/Redhat, Ubuntu)](https://cran.r-project.org/)
-
-2. Download and install [RStudio](https://www.rstudio.com/products/rstudio/download/).
-3. Refer to the [RPubs publication](http://rpubs.com/deborah_masibo/908054).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -165,8 +153,15 @@ Steps to be takes to run the project locally.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. The project has been written entirely in R, for beginners, refer to the [docummentation](https://www.rdocumentation.org/) for a better understanding of the code.
-2. Details on the project context and analysis can be found in the RPubs pulication.
+1. The project has been written entirely in python, for beginners, refer to the following docummentation for a better understanding of the code:
+
+> i) [Python](https://www.python.org)
+> ii) [Pandas](https://pandas.pydata.org/)
+> iii) [Scikit-learn](https://scikit-learn.org/)
+> iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)
+> v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)
+
+2. Details on the project context and analysis can be found in the colab notebook.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -176,7 +171,7 @@ Steps to be takes to run the project locally.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,11 +182,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments
 List of helpful resources.
 
-* [R Docummentation](https://www.rdocumentation.org/)
-* [Tutorialspoint](https://www.tutorialspoint.com/r/index.htm)
-* [Statistics Globe](https://statisticsglobe.com/r-programming-language)
-* [Statistical tools for high-throughput data analysis](http://www.sthda.com/english/wiki/ggplot2-essentials)
-* [ggplot2](https://ggplot2.tidyverse.org/)
+* [ABSA](https://medium.com/analytics-vidhya/aspect-based-sentiment-analysis-a-practical-approach-8f51029bbc4a)
+* [BERT](https://huggingface.co/docs/transformers/model_doc/bert)
+ 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
