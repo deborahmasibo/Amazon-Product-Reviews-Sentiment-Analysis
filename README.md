@@ -39,16 +39,6 @@ The project described below was done with an aim of understanding customer senti
 ## Project Description
 
 
-<p align="center">
-  <img 
-    width="600"
-    height="174"
-    src="https://fontspool.com/img/fonts/img-1602929103184.png"
-  >
-</p>
-
-
-
 Carrefour Kenya was undertaking a project that would inform the marketing department on the presence of fraudulent sales. They provided a data set from
 which the most important data set variables were to be identified. They aslo provided datasets to be used in the formation and analysis of association rules, 
 and for anomaly(fraud) detection.
