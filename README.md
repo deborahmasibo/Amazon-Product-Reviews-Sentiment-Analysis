@@ -160,7 +160,7 @@ Steps to be takes to run the project:
 ## Usage
 
 1. The project has been written entirely in python, for beginners, refer to the following docummentation for a better understanding of the code:
-<ol>
+<ul>
   
   <li> i) [Python](https://www.python.org)</li>
   <li> ii) [Pandas](https://pandas.pydata.org/)</li>
@@ -168,7 +168,7 @@ Steps to be takes to run the project:
   <li> iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)</li>
   <li> v) [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/generated/seaborn.barplot.html)</li>
   
-</ol>
+</ul>
 
 2. Details on the project context and analysis can be found in the colab notebook.
 
