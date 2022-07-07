@@ -161,7 +161,7 @@ Steps to be takes to run the project:
 
 1. The project has been written entirely in python, for beginners, refer to the following docummentation for a better understanding of the code:
 
-<p class="tab">i) [Python](https://www.python.org)</p>
+i) [Python](https://www.python.org)
 <p class="tab">ii) [Pandas](https://pandas.pydata.org/)</p>
 <p class="tab">iii) [Scikit-learn](https://scikit-learn.org/)</p>
 <p class="tab">iv) [Huggingface](https://huggingface.co/docs/transformers/model_doc/bert)</p>
